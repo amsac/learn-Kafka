@@ -43,4 +43,4 @@ st.bar_chart(sentiment_counts)
 
 # Auto-refresh the app every 5 minutes
 time.sleep(300)
-st.experimental_rerun()
+st.rerun()
