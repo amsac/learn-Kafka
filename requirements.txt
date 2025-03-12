@@ -5,3 +5,5 @@ streamlit
 nltk
 matplotlib
 wordcloud
+streamlit 
+vaderSentiment
