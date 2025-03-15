@@ -2,8 +2,8 @@
 pip install -r requirements.txt
 
 #Start Docker Services
-Start Zookeeper and Kafka using Docker Compose: docker-compose up -d
-Check if services are running: docker ps
+#Start Zookeeper and Kafka using Docker Compose: docker-compose up -d
+#Check if services are running: docker ps
 
 #Run the Consumer
 In Terminal 1:
