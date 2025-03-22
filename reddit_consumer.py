@@ -64,3 +64,6 @@ while True:  # Infinite loop to keep consuming messages
             df_comments = pd.DataFrame(comments_data, columns=["comment_id", "post_title", "comment", "created_utc"])
             df_comments.to_csv(comments_file, mode='a', header=False, index=False)  # Append to CSV
             comments_data = []  # Clear buffer after saving
+
+
+#these files will push data into csv format
